@@ -1,0 +1,69 @@
+#gh {
+    background-color: rgb(17, 16, 16);
+}
+
+.nm {
+    justify-content: space-between;
+}
+
+.nm:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#hu {
+    background-color: black !important;
+    opacity: 0.9 !important;
+}
+
+.carousel-item img {
+    height: 500px !important;
+    ;
+}
+
+#we {
+    background-color: black !important;
+}
+  
+  @keyframes example {
+    0% {
+      width: 0%;
+    }
+  
+    10% {
+      width: 0%;
+    }
+  
+    100% {
+      max-width: 100%;
+    }
+  }
+  
+  .bara1 {
+    border-radius: 1px 25px 25px 1px;
+    padding: 16px;
+    background-color: #eeff00;
+    position: relative;
+    margin-bottom: -32px;
+    z-index: 2;
+    animation-duration: 3s;
+  }
+  
+  .bara1.animate {
+    animation-name: example;
+  }
+  
+  .barb1 {
+    border-radius: 1px 25px 25px 1px;
+    padding: 16px;
+    background-color: #e3e3e3;
+    position: relative;
+    margin-bottom: 8px;
+    z-index: 1;
+  }
+  
+  .textbox {
+    position: absolute;
+    color: #000000;
+    margin-top: -12px;
+  }
